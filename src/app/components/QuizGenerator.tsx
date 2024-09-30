@@ -15,7 +15,7 @@ export default function QuizGenerator() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit} className="mb-4">
+      <form onSubmit={handleSubmit}>
         <input
           type="text"
           value={input}
