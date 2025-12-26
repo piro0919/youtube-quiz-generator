@@ -1,18 +1,27 @@
 {
   "dependencies": {
-    "ai": "3.4.7",
-    "next": "14.2.13",
-    "openai": "4.65.0",
-    "react": "^18",
-    "react-dom": "^18",
-    "youtube-transcript": "1.2.1"
+    "@ai-sdk/openai": "^3.0.1",
+    "@ai-sdk/react": "^3.0.3",
+    "@distube/ytdl-core": "^4.16.12",
+    "@egoist/youtube-transcript-plus": "^1.1.2",
+    "@supabase/supabase-js": "^2.89.0",
+    "@tailwindcss/postcss": "^4.1.18",
+    "ai": "6.0.3",
+    "nanoid": "^5.1.6",
+    "next": "16.1.1",
+    "openai": "6.15.0",
+    "postcss": "^8.5.6",
+    "react": "^19",
+    "react-dom": "^19",
+    "tailwindcss": "^4.1.18",
+    "zod": "^4.2.1"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.13",
+    "@types/node": "^25",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
     "typescript": "^5"
   },
   "name": "youtube-quiz-generator",

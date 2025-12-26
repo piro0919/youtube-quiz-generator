@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/* アクセシビリティ：フォーカススタイル */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid #fbbf24;
+  outline-offset: 2px;
+}
+
+/* カスタムアニメーション */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-5px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes confetti {
+  0% {
+    transform: translateY(-100vh) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+/* ユーティリティクラス */
+@utility animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+@utility animate-bounce-in {
+  animation: bounce-in 0.5s ease-out forwards;
+}
+
+@utility animate-slide-up {
+  animation: slide-up 0.3s ease-out forwards;
+}
+
+@utility animate-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+@utility animate-confetti {
+  animation: confetti 3s ease-in-out infinite;
+}
