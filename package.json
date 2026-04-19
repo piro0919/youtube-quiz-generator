@@ -6,7 +6,7 @@
     "@egoist/youtube-transcript-plus": "^1.1.2",
     "@supabase/supabase-js": "^2.89.0",
     "@tailwindcss/postcss": "^4.1.18",
-    "ai": "6.0.3",
+    "ai": "6.0.168",
     "nanoid": "^5.1.6",
     "next": "16.1.1",
     "openai": "6.15.0",
