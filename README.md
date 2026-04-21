@@ -2,7 +2,7 @@
 
 > Generate quizzes from YouTube videos and battle with friends.
 
-[🔗 Live Site](https://youtube-quiz-generator-eight.vercel.app)
+[🔗 Live Site](https://youtube-quiz-battle.kkweb.io/)
 
 ## ✨ Features
 
