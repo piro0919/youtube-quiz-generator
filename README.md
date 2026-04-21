@@ -2,8 +2,6 @@
 
 > Generate quizzes from YouTube videos and battle with friends.
 
-YouTubeの動画からクイズを生成して友達と対戦！
-
 [🔗 Live Site](https://youtube-quiz-generator-eight.vercel.app)
 
 ## ✨ Features
@@ -25,3 +23,7 @@ YouTubeの動画からクイズを生成して友達と対戦！
 pnpm install
 pnpm dev
 ```
+
+## 📄 License
+
+MIT
