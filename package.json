@@ -1,12 +1,12 @@
 {
   "dependencies": {
     "@ai-sdk/openai": "^3.0.71",
-    "@ai-sdk/react": "^3.0.206",
+    "@ai-sdk/react": "^3.0.207",
     "@distube/ytdl-core": "^4.16.12",
     "@egoist/youtube-transcript-plus": "^1.1.2",
     "@supabase/supabase-js": "^2.108.1",
     "@tailwindcss/postcss": "^4.3.1",
-    "ai": "6.0.204",
+    "ai": "6.0.205",
     "nanoid": "^5.1.11",
     "next": "16.2.9",
     "openai": "6.42.0",
