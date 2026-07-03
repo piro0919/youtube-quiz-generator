@@ -1,19 +1,19 @@
 {
   "dependencies": {
-    "@ai-sdk/openai": "^3.0.77",
-    "@ai-sdk/react": "^3.0.216",
+    "@ai-sdk/openai": "^3.0.80",
+    "@ai-sdk/react": "^3.0.221",
     "@distube/ytdl-core": "^4.16.12",
     "@egoist/youtube-transcript-plus": "^1.1.2",
-    "@supabase/supabase-js": "^2.108.2",
-    "@tailwindcss/postcss": "^4.3.1",
-    "ai": "6.0.214",
+    "@supabase/supabase-js": "^2.110.0",
+    "@tailwindcss/postcss": "^4.3.2",
+    "ai": "6.0.219",
     "nanoid": "^5.1.16",
-    "next": "16.2.9",
+    "next": "16.2.10",
     "openai": "6.45.0",
-    "postcss": "^8.5.15",
+    "postcss": "^8.5.16",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "tailwindcss": "^4.3.1",
+    "tailwindcss": "^4.3.2",
     "zod": "^4.4.3"
   },
   "devDependencies": {
