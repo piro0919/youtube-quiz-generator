@@ -10,7 +10,7 @@
     "nanoid": "^5.1.16",
     "next": "16.2.10",
     "openai": "6.46.0",
-    "postcss": "^8.5.16",
+    "postcss": "^8.5.17",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "tailwindcss": "^4.3.2",
